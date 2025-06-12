@@ -140,9 +140,3 @@ def measure_all(url):
     plt.show()
 
     return baby_length
-
-if __name__ == "__main__":
-    url = "https://raw.githubusercontent.com/Fatikhaaa/capstoneProject/main/images/baby_image/baby_2.png"
-    hasil = measure_all(url)
-    if hasil:
-        print(f"✅ Panjang bayi adalah sekitar: {hasil:.2f} cm")
