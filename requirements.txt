@@ -1,4 +1,9 @@
+fastapi
+uvicorn
+gunicorn
+python-multipart
 ultralytics==8.3.146
-opencv-python
+opencv-python-headless
 numpy
 requests
+matplotlib
